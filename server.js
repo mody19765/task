@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Routes
 app.use('/', async(req,res)=>{
-
+ 
 res.json({message:"Iam Sorry"})
 });
 
